@@ -8,7 +8,12 @@ $CommonPaths = @(
     ".\README.md"
 )
 
-# Example: Module 1
-Compress-Archive -DestinationPath .\.materials\Module-1.zip -Update -Path ($CommonPaths + @(
-    ".\Module 1"
+Compress-Archive -DestinationPath .\.materials\Module-2.zip -Update -Path ($CommonPaths + @(
+    ".\Module 2"
+))
+Compress-Archive -DestinationPath .\.materials\Module-4.zip -Update -Path ($CommonPaths + @(
+    ".\Module 4"
+))
+Compress-Archive -DestinationPath .\.materials\Module-5.zip -Update -Path ($CommonPaths + @(
+    ".\Module 5"
 ))
