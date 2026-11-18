@@ -2,9 +2,24 @@
   "editor.minimap.enabled": false,
   "workbench.statusBar.visible": false,
   "workbench.statusBar.feedback.visible": false,
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "Light+",
   "workbench.tips.enabled": false,
   "git.countBadge": "off",
   "git.decorations.enabled": false,
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#130F25",
+    "titleBar.activeBackground": "#FF1675",
+    "titleBar.activeForeground": "#FFFFFF",
+    "editorCursor.foreground": "#FF1675",
+    "terminalCursor.foreground": "#FF1675",
+    "titleBar.inactiveBackground": "#28204E",
+    "titleBar.inactiveForeground": "#1A1533",
+    "statusBar.background": "#30265D",
+    "statusBar.foreground": "#FAF9FD",
+    "statusBar.debuggingBackground": "#30265D",
+    "statusBar.debuggingForeground": "#FAF9FD",
+    "statusBar.noFolderBackground": "#30265D",
+    "statusBar.noFolderForeground": "#FAF9FD"
+  }
 }
